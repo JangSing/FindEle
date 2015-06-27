@@ -12,7 +12,7 @@ Element *elementCreate( void *data){
   elem->next=NULL;
   elem->data=data;
   return elem;
-}  
+}
 
 void elementDestroy(Element *elem){
 }

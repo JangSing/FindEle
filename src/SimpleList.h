@@ -14,7 +14,7 @@ typedef struct {
 
 List *listCreate();
 
-Element *elementCreate( void *data); 
+Element *elementCreate( void *data);
 
 void elementDestroy(Element *elem);
 
